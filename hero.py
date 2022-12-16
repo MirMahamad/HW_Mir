@@ -66,8 +66,7 @@ print(a.__str__())
 
 class Villiain(SpaceHero):
     def __init__(self, name, nickname, superpower, health_point, catchphrase, damage, fly = False):
-        super().__init__(name, nickname, superpower, health_point, catchphrase, damage)
-        self.fly = fly
+        super().__init__(name, nickname, superpower, health_point, catchphrase, damage, fly)
     def gen_x(self):
         pass
     def Brand_phrase(self):
